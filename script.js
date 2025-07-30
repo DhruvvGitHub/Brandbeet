@@ -39,8 +39,6 @@ function loadingAnimation() {
 
 loadingAnimation();
 
-
-
 function page1ScrollAnimation() {
     var tl = gsap.timeline({
         scrollTrigger: {
@@ -83,8 +81,6 @@ function page1ScrollAnimation() {
         }, "a")
 }
 page1ScrollAnimation();
-
-
 
 function page2TextFillOnScroll() {
     const heads = document.querySelectorAll("#page2 h1")
